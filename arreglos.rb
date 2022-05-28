@@ -16,38 +16,75 @@ c = ["Jose", 9]
 
     # puts b.class - indica la clase a la que pertenece el arreglo que se esta llamando.
 
-puts b.shuffle.join("-")
+    #puts b.shuffle.join("-")
 
-puts a.to_s
+    #puts a.to_s
 
-#Provando .at - imprime el valor del indice que se esta llamando 
+#Probando .at - imprime el valor del indice que se está llamando 
 
     #b1= b.at(2)
     #puts b1
 
-#Provando .delete - elimina el indice que se llama
+#Probando .fetch - imprime el valor del indice que se está llamando
+
+    #b1= b.fetch(2)
+    #puts b1 
+
+#Probando .delete - elimina el indice que se llama
 
     #a.delete("Jose")
     #puts a
 
-#Provando .push - agrega el valor indicado al final del arreglo
+#Probando .push - agrega el valor indicado al final del arreglo
 
     #b.push(22)
     #puts b 
 
-#Provando .pop - elimina el ultimo indice del arreglo
+#Probando .pop - elimina el ultimo indice del arreglo
 
     #b.pop()
     #puts b
 
-#Provando .length - indica la cantidad de indices que tiene el arreglo que se llama
+#Probando .length - indica la cantidad de indices que tiene el arreglo que se llama
 
     #puts "El largo de a es #{a.length}"
 
-#Provando .join
+#Probando .join - junta todos los valors del arreglo en una sola cadena
 
-#Provando .reverse
+    #a1= a.join
+    #puts a1
 
-#Provando .shuffle
+    #b1= b.join
+    #puts b1
 
+#Probando .reverse - invierte el orden del arreglo 
+
+    #a1= a.reverse
+    #puts a1
+
+#Probando .shuffle - desordena aleatoriamente el orden de los items del arreglo
+
+    #a1= a.shuffle
+    #puts a1
+
+#Probando .sort - ordena en orden alfabetico o numérico del forma ascendente el arreglo. 
+
+    #a1= a.sort
+    #puts a1
+
+    #b1= b.sort
+    #puts b1
+
+#Probando .slice - indica el valor del indice que se está llamando. 
+
+    #a1= a.slice(0) 
+    #puts a1
+
+    #b1 = b.slice(3)
+    #puts b1
+
+#Probando .insert - inserta en el indicador que se le indica el nuevo valor al arreglo
+
+    #a.insert(0, :"Andrea")
+    #puts a
 
